@@ -12,6 +12,7 @@ gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 gem 'devise', '~> 3.1.1'
 gem "orm_adapter", "~> 0.4.0"
 gem "paperclip", "~> 3.1.1"
+gem 'aws-sdk', '~> 1.20.0'
 
 
 group :development, :test do
