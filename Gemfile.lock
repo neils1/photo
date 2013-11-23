@@ -155,7 +155,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   orm_adapter (~> 0.4.0)
-  paperclip (~> 3.0)
+  paperclip (~> 3.1.1)
   pg
   rails (= 4.0.0)
   rails_12factor
