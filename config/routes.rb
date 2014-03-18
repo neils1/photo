@@ -1,9 +1,7 @@
 Photo::Application.routes.draw do
-  get "users/show"
   resources :pins
-devise_for :users 
 
-match 'users/:id' => 'users#show'
+  devise_for :users
   root "pins#index"
   get "about" => "pages#about"
 
